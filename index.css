@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    color: red;
+    font-family: 'Comic Sans MS', cursive;
+    text-align: center;
+}
+
+#chaosButton {
+    padding: 20px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    animation: flicker 0.5s infinite alternate;
+}
+
+@keyframes flicker {
+    0% { opacity: 1; }
+    100% { opacity: 0.5; }
+}
