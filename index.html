@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Caos.exe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>👇VIDEOS DE PERRITOS👇</h1>
+    <button id="chaosButton" onclick="startChaos()">Presiona para más información</button>
+    <script>
+        function startChaos() {
+            fetch('http://localhost:8080/start-chaos');
+        }
+    </script>
+</body>
+</html>
